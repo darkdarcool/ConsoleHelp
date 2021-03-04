@@ -17,6 +17,8 @@ def red():
 def green():
   return GREEN
 def yellow():
+def ysn():
+  print("[y/n]", end = "")
   return YELLOW
 def blue():
   return BLUE
@@ -56,48 +58,55 @@ def clear():
   print("\033c", end = "")
 
 class color():
-  def spc(text,color): # put try statement
-    if color == "red":
-      for char in text:
-        print(RED + char, end = "")
-        time.sleep(0.05)
-        sys.stdout.flush()
-    elif color == 'orange':
-      for char in text:
-        print(ORANGE + char, end = "")
-        time.sleep(0.05)
-        sys.stdout.flush()
-    elif color == 'green': 
-      for char in text:
-        print(GREEN + char, end = "")
-        time.sleep(0.05)
-        sys.stdout.flush()
-    elif color == 'blue': 
-      for char in text:
-        print(BLUE + char, end = "")
-        time.sleep(0.05)
-        sys.stdout.flush()
-    elif color == 'yellow': 
-      for char in text:
-        print(YELLOW + char, end = "")
-        time.sleep(0.05)
-        sys.stdout.flush()
-    elif color == 'magenta': 
-      for char in text:
-        print(MAGENTA + char, end = "")
-        time.sleep(0.05)
-        sys.stdout.flush()
-    elif color == 'cyan': 
-      for char in text:
-        print(CYAN + char, end = "")
-        time.sleep(0.05)
-        sys.stdout.flush()
-    elif color == 'underline': 
-      for char in text:
-        print(UNDERLINE + char, end = "")
-        time.sleep(0.05)
-        sys.stdout.flush()
-    else:
-      print(f'Error: unknown text formatting: {color}')#lol
+  def spc(text,color = None): # put try statement
+    sun = 0
+    if color == None:
+      print("Please do fill out the color text box")
+      sun = 1
+    if sun == 0:
+      elif color == "red":
+        for char in text:
+          print(RED + char, end = "")
+          time.sleep(0.05)
+          sys.stdout.flush()
+      elif color == 'orange':
+        for char in text:
+          print(ORANGE + char, end = "")
+          time.sleep(0.05)
+          sys.stdout.flush()
+      elif color == 'green': 
+        for char in text:
+          print(GREEN + char, end = "")
+          time.sleep(0.05)
+          sys.stdout.flush()
+      elif color == 'blue': 
+        for char in text:
+          print(BLUE + char, end = "")
+          time.sleep(0.05)
+          sys.stdout.flush()
+      elif color == 'yellow': 
+        for char in text:
+          print(YELLOW + char, end = "")
+          time.sleep(0.05)
+          sys.stdout.flush()
+      elif color == 'magenta': 
+        for char in text:
+          print(MAGENTA + char, end = "")
+          time.sleep(0.05)
+          sys.stdout.flush()
+      elif color == 'cyan': 
+        for char in text:
+          print(CYAN + char, end = "")
+          time.sleep(0.05)
+          sys.stdout.flush()
+      elif color == 'underline': 
+        for char in text:
+          print(UNDERLINE + char, end = "")
+          time.sleep(0.05)
+          sys.stdout.flush()
+      else:
+        print(f'Error: unknown text formatting: {color}')#lol
+   else:
+     pass
 
 #hahahahahahhahahah
