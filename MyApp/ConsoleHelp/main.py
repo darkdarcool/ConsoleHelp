@@ -56,7 +56,7 @@ def clear():
   print("\033c", end = "")
 
 class color():
-  def spc(text,color):
+  def spc(text,color): # put try statement
     if color == "red":
       for char in text:
         print(RED + char, end = "")
