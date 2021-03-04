@@ -10,6 +10,26 @@ WHITE = '\033[37m'
 UNDERLINE = '\033[4m'
 ORANGE = '\033[0;33m'
 RESET = '\033[0m'
+def orange():
+  return ORANGE
+def red():
+  return RED
+def green():
+  return GREEN
+def yellow():
+  return YELLOW
+def blue():
+  return BLUE
+def magenta():
+  return MAGENTA
+def cyan():
+  return CYAN
+def white():
+  return WHITE
+def underline():
+  return UNDERLINE
+def normal():
+  return RESET
 def printred(text):
   print(RED + text + RESET)
 def printgreen(text):
