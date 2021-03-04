@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ConsoleHelp
+Version: 0.2.1
+Summary: For all of your console needs!
+Home-page: UNKNOWN
+Author: darkdarcool30
+Author-email: darkdarcool@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Description: For all of your console needs
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
