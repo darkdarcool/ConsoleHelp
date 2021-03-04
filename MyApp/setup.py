@@ -2,7 +2,7 @@ from setuptools import setup
 
 with open("README.md", "r") as fh:
   long_description = fh.read()
-
+# delete the url info if error, also change version in an update
 setup(
   name = "ConsoleHelp",
   version = "0.2.1",
@@ -11,6 +11,7 @@ setup(
   long_description_content_type = "text/markdown",
   author = "darkdarcool30",
   author_email = "darkdarcool@gmail.com",
+  url = "https://github.com/darkdarcool/ConsoleHelp",
 #To find more licenses or classifiers go to: https://pypi.org/classifiers/
   license = "GNU General Public License v3 (GPLv3)",
   packages=['ConsoleHelp'],
