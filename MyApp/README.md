@@ -5,10 +5,11 @@ We all have used the console before at one time or another to make text adventur
 But sometimes, it can be a real hassle. Having to get a typing animation, but not at the right speed. 
 
 Wait no more! The ConsoleHelp pip package makes all of that so much easier! Use the installation table to get started with installing the package!!
-| Pip      | pip install ConsoleHelp |
-| ----------- | ----------- |
-| Replit      | Add ConsoleHelp in the package tab       |
-| Poetry   | python -m poetry add ConsoleHelp        |
+|Manager          |Command                                       |
+|:----------------|:---------------------------------------------|
+|**pip**          |`pip install ConsoleHelp`                          |
+|**poetry**       |`python -m poetry add ConsoleHelp`                 |
+|**Repl.it**      |Search `ConsoleHelp` in the package tab and add it.(coming soon)|     |
 
 ## Additions:
  
