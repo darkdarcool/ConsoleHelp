@@ -1,3 +1,5 @@
+# import ConsoleHelp as window
+# window.ysn()
 import time, sys, os
 BLACK = '\033[30m'
 RED = '\033[31m'
@@ -59,11 +61,10 @@ def clear():
 
 class color():
   def spc(text,color = None): # put try statement
-    sun = 0
-    if color == None:
-      print("Please do fill out the color text box")
-      sun = 1
-    if sun == 0:
+      sun = 0
+      if color == None:
+        print("Please do fill out the color text box")
+        sun = 1  
       elif color == "red":
         for char in text:
           print(RED + char, end = "")
@@ -105,8 +106,4 @@ class color():
           time.sleep(0.05)
           sys.stdout.flush()
       else:
-        print(f'Error: unknown text formatting: {color}')#lol
-   else:
-     pass
-
-#hahahahahahhahahah
+        print(f'Error: unknown text formatting: {color}')
