@@ -18,8 +18,6 @@ def red():
   return RED
 def green():
   return GREEN
-def ysn():
-  print("[y/n]", end = "")
 def yellow():
   return YELLOW
 def blue():
@@ -107,3 +105,5 @@ class color():
           sys.stdout.flush()
       else:
         print(f'Error: unknown text formatting: {color}')
+def ysn():
+  print("[y/n]", end = "")
