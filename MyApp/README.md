@@ -5,6 +5,7 @@ We all have used the console before at one time or another to make text adventur
 But sometimes, it can be a real hassle. Having to get a typing animation, but not at the right speed. 
 
 Wait no more! The ConsoleHelp pip package makes all of that so much easier! Use the installation table to get started with installing the package!!
+
 |Manager          |Command                                       |
 |:----------------|:---------------------------------------------|
 |**pip**          |`pip install ConsoleHelp`                          |

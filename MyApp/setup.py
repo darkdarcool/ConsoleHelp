@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 # delete the url info if error, also change version in an update
 setup(
   name = "ConsoleHelp",
-  version = "0.3.8",
+  version = "0.3.9",
   description = "For all of your console needs!",
   long_description = long_description,
   long_description_content_type = "text/markdown",
