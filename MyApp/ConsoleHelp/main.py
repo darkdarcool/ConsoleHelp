@@ -16,9 +16,9 @@ def red():
   return RED
 def green():
   return GREEN
-def yellow():
 def ysn():
   print("[y/n]", end = "")
+def yellow():
   return YELLOW
 def blue():
   return BLUE
