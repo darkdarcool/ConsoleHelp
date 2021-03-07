@@ -105,8 +105,6 @@ class color():
           sys.stdout.flush()
       else:
         print(f'Error: unknown text formatting: {color}')
-def ysn():
-  print("[y/n]", end = "")
 class math():
   def add(num1, num2):
     try:
