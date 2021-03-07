@@ -107,3 +107,74 @@ class color():
         print(f'Error: unknown text formatting: {color}')
 def ysn():
   print("[y/n]", end = "")
+class math():
+  def add(num1, num2):
+    try:
+      float(num1)
+      float(num2)
+      try:
+        total = float(num1) + float(num2)
+        int(total)
+        print(int(total))
+      except:
+        try:
+          total = float(num1) + float(num2)
+          float(total)
+          print(float(total))
+        except:
+          print("ERROR")
+    except:
+      print("ERROR")
+  def subtract(num1, num2):
+    try:
+      float(num1)
+      float(num2)
+      try:
+        total = float(num1) - float(num2)
+        int(total)
+        print(int(total))
+      except:
+        try:
+          total = float(num1) - float(num2)
+          float(total)
+          print(float(total))
+        except:
+          print("ERROR")
+    except:
+      print("ERROR")
+  def multiply(num1, num2):
+    try:
+      float(num1)
+      float(num2)
+      try:
+        total = float(num1) * float(num2)
+        int(total)
+        print(int(total))
+      except:
+        try:
+          total = float(num1) * float(num2)
+          float(total)
+          print(float(total))
+        except:
+          print("ERROR")
+    except:
+      print("ERROR")
+  def divide(num1, num2):
+    try:
+      float(num1)
+      float(num2)
+      try:
+        total = float(num1) / float(num2)
+        int(total)
+        print(int(total))
+      except:
+        try:
+          total = float(num1) / float(num2)
+          float(total)
+          print(float(total))
+        except:
+          print("ERROR")
+    except:
+      print("ERROR")
+  
+  
