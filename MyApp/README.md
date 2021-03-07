@@ -46,4 +46,10 @@ Now, I'm sure that some of you are asking, "But how do I get the sp function to 
 ``` python
 import ConsoleHelp as window # We recomend you change the name to something that is not ConsoleHelp
 put it here.
+window.color.spc("This will be red", 'red')
 ```
+
+Let's break down how this function works. The window is our import(duh), and color is the class it is apart of. The color class is small curently, but will grow in time! After that, is spc. The the sp in spc stands for slow print, and the c in there stands for color. So, it means slow print color. Cool right! Then in quotation marks, you can put in your text, after that, put a comma and in quots put in your color. We have the same colors as the print func, so to find the colors, go there!.
+
+Coming soon:
+ Math mods.
