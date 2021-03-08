@@ -1,6 +1,5 @@
-# import ConsoleHelp as window
-# window.ysn()
-import time, sys, os
+import time, sys, os, random
+import getpass
 BLACK = '\033[30m'
 RED = '\033[31m'
 GREEN = '\033[32m'
@@ -106,6 +105,9 @@ class color():
       else:
         print(f'Error: unknown text formatting: {color}')
 class math():
+  def rand(num1, num2):
+    raand = random.randint(int(num1), int(num2))
+    return raand
   def add(num1, num2):
     try:
       float(num1)
@@ -174,5 +176,24 @@ class math():
           print("ERROR")
     except:
       print("ERROR")
-  
-  
+
+class user():
+  def password(text):
+    x = getpass.getpass(text)
+    return x
+  def getowner():
+    name = os.environ["REPL_OWNER"]
+    return name
+  def getcmds():
+    print("cmds: WE HAVE NONE, THIS IS A PIP MODULE WUT DO YOU MEANNNN USER.")#oh. ok then. lol
+
+class AllInfo():
+  def getversion():
+    print("VERSION 0.4.7")
+  def getcreators():
+    print("CREATOR\MOD: darkdarcool\nWEIRD SIDEKICK(maybe maintaner if you wanna call it that smth): JBloves27")#yasssss 
+  def getupdates():
+    pass # for the future yes 
+  def getlanguage():#idk
+    print("MСіз англияда жасалған деп ойлайсыз ба?") # there you go
+  def
