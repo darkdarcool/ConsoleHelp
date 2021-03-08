@@ -45,11 +45,24 @@ That is a full list of them now, but there will be so many more coming to you in
 Now, I'm sure that some of you are asking, "But how do I get the sp function to have color". We also took the liberty of designing that too! It is in the color class function right now, it is small, but many things will be moved there and there is more to be developed there. But, here is how the sp function can have color in it:
 ``` python
 import ConsoleHelp as window # We recomend you change the name to something that is not ConsoleHelp
-put it here.
 window.color.spc("This will be red", 'red')
 ```
 
 Let's break down how this function works. The window is our import(duh), and color is the class it is apart of. The color class is small curently, but will grow in time! After that, is spc. The the sp in spc stands for slow print, and the c in there stands for color. So, it means slow print color. Cool right! Then in quotation marks, you can put in your text, after that, put a comma and in quots put in your color. We have the same colors as the print func, so to find the colors, go there!.
 
-Coming soon:
- Math mods.
+## Math Module!
+
+The math module is made to make your math needs easier, and faster! A lot of people are bad at math, and this class function will make it easier. We have addition, subtraction, division, and mulitplacation. To use this, do:
+
+``` python
+import ConsoleHelp as window # We recomend you change the name to something that is not ConsoleHelp
+window.math.add(1, 2)
+```
+This will return the number `3`. We also have
+
+* `window.math.add(1, 2)`
+* `window.math.subtract(4, 1)`
+* `window.math.multiply(1, 3)`
+* `window.math.divide(6, 2)`
+
+But there is one very special math function. It is called `window.math.rand(num1, num2)`. 
