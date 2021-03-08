@@ -196,4 +196,4 @@ class AllInfo():
     pass # for the future yes 
   def getlanguage():#idk
     print("MСіз англияда жасалған деп ойлайсыз ба?") # there you go
-  def
+  
