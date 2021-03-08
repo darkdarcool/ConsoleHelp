@@ -10,6 +10,7 @@ setup(
   long_description = long_description,
   long_description_content_type = "text/markdown",
   author = "darkdarcool30",
+  url = "https://github.com/darkdarcool/ConsoleHelp/blob/master/MyApp/setup.py",
   author_email = "darkdarcool@gmail.com",
 #To find more licenses or classifiers go to: https://pypi.org/classifiers/
   license = "GNU General Public License v3 (GPLv3)",
