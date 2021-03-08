@@ -177,23 +177,21 @@ class math():
     except:
       print("ERROR")
 
-class user():
-  def password(text):
-    x = getpass.getpass(text)
-    return x
-  def getowner():
-    name = os.environ["REPL_OWNER"]
-    return name
-  def getcmds():
-    print("cmds: WE HAVE NONE, THIS IS A PIP MODULE WUT DO YOU MEANNNN USER.")#oh. ok then. lol
 
-class AllInfo():
+def password(text):
+  x = getpass.getpass(text)
+  return x
+def getowner():
+  name = os.environ["REPL_OWNER"]
+  return name
+
+class info():
   def getversion():
-    print("VERSION 0.4.7")
+    print("VERSION 0.4.9")
   def getcreators():
-    print("CREATOR\MOD: darkdarcool\nWEIRD SIDEKICK(maybe maintaner if you wanna call it that smth): JBloves27")#yasssss 
+    print("CREATOR\MOD: darkdarcool\nWEIRD SIDEKICK(maybe maintaner if you wanna call it that smth): JBloves27")
   def getupdates():
     pass # for the future yes 
   def getlanguage():#idk
-    print("MСіз англияда жасалған деп ойлайсыз ба?") # there you go
+    print("Coding lang: Python\nSpeaking lang: English\nDeveloped in: USA\n")
   
