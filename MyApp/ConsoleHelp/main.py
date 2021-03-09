@@ -214,7 +214,8 @@ def password(text):
 def getowner():
   name = os.environ["REPL_OWNER"]
   return name
-
+def allmods():
+  print("Coming soon")
 class info():
   def getversion():
     print("VERSION 0.5.0")
