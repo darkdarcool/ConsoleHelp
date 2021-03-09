@@ -12,7 +12,7 @@ Wait no more! The ConsoleHelp pip package makes all of that so much easier! Use 
 |**poetry**       |`python -m poetry add ConsoleHelp`                 |
 |**Repl.it**      |Search `ConsoleHelp` in the package tab and add it.(coming soon)|     |
 
-## Additions:
+# Additions:
  
 Printing in python is nice an all, but sometimesI just looks so premade. To solve this, you need to make it look like someone is typing out text, **LIVE**. But how do you do that. Well, we may not show the code, but we sure can show you how to use in in console help! Here is a demonstration:
 
