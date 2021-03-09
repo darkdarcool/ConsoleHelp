@@ -1,4 +1,5 @@
-import time, sys, os
+import time, sys, os, random
+import getpass
 BLACK = '\033[30m'
 RED = '\033[31m'
 GREEN = '\033[32m'
@@ -17,8 +18,6 @@ def red():
 def green():
   return GREEN
 def yellow():
-def ysn():
-  print("[y/n]", end = "")
   return YELLOW
 def blue():
   return BLUE
@@ -59,11 +58,10 @@ def clear():
 
 class color():
   def spc(text,color = None): # put try statement
-    sun = 0
-    if color == None:
-      print("Please do fill out the color text box")
-      sun = 1
-    if sun == 0:
+      sun = 0
+      if color == None:
+        print("Please do fill out the color text box")
+        sun = 1  
       elif color == "red":
         for char in text:
           print(RED + char, end = "")
@@ -105,8 +103,126 @@ class color():
           time.sleep(0.05)
           sys.stdout.flush()
       else:
-        print(f'Error: unknown text formatting: {color}')#lol
-   else:
-     pass
+        print(f'Error: unknown text formatting: {color}')
+class math():
+  def rand(num1, num2):
+    raand = random.randint(int(num1), int(num2))
+    return raand
+  def add(num1, num2):
+    try:
+      float(num1)
+      float(num2)
+      try:
+        total = float(num1) + float(num2)
+        int(total)
+        print(int(total))
+      except:
+        try:
+          total = float(num1) + float(num2)
+          float(total)
+          print(float(total))
+        except:
+          print("ERROR")
+    except:
+      print("ERROR")
+  def subtract(num1, num2):
+    try:
+      float(num1)
+      float(num2)
+      try:
+        total = float(num1) - float(num2)
+        int(total)
+        print(int(total))
+      except:
+        try:
+          total = float(num1) - float(num2)
+          float(total)
+          print(float(total))
+        except:
+          print("ERROR")
+    except:
+      print("ERROR")
+  def multiply(num1, num2):
+    try:
+      float(num1)
+      float(num2)
+      try:
+        total = float(num1) * float(num2)
+        int(total)
+        print(int(total))
+      except:
+        try:
+          total = float(num1) * float(num2)
+          float(total)
+          print(float(total))
+        except:
+          print("ERROR")
+    except:
+      print("ERROR")
+  def maths(operator, num1, num2):
+    try:
+      if (operator == "+"):
+        total = num1 + num2
+        return total
+      if (operator == "-"):
+        total = num1 - num2
+        return total
+      if (operator == "/"):
+        total = num1 / num2
+        return total
+      if (operator == "//"):
+        total = num1 // num2
+        return total
+      if (operator == "*"):
+        total = num1 * num2
+        return total
+      if (operator == "%"):
+        total = num1 & num2
+        return total
+      if (operator == "^"):
+        total = num1 ** num2
+        return total
+      if (operator == "*"):
+        total = num1 * num2
+        return total
+      else:
+        print("ERROR IN OPERATOR")
+    except:
+      print("ERROR IN NUMS")
+  def divide(num1, num2):
+    try:
+      float(num1)
+      float(num2)
+      try:
+        total = float(num1) / float(num2)
+        int(total)
+        print(int(total))
+      except:
+        try:
+          total = float(num1) / float(num2)
+          float(total)
+          print(float(total))
+        except:
+          print("ERROR")
+    except:
+      print("ERROR")
 
-#hahahahahahhahahah
+
+def password(text):
+  x = getpass.getpass(text)
+  return x
+def getowner():
+  name = os.environ["REPL_OWNER"]
+  return name
+
+class info():
+  def getversion():
+    print("VERSION 0.4.9")
+  def getcreators():
+    print("CREATOR\MOD: darkdarcool\nWEIRD SIDEKICK(maybe maintaner if you wanna call it that smth): JBloves27")
+  def getupdates():
+    pass 
+  def getlanguage():
+    print("Coding lang: Python\nSpeaking lang: English\nDeveloped in: USA\n")
+  def getgud():
+    print("Just google it kid(stackoverflow is good)")#looool

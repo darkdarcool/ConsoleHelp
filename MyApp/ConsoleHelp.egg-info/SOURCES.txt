@@ -1,0 +1,9 @@
+README.md
+setup.py
+ConsoleHelp/__init__.py
+ConsoleHelp/main.py
+ConsoleHelp.egg-info/PKG-INFO
+ConsoleHelp.egg-info/SOURCES.txt
+ConsoleHelp.egg-info/dependency_links.txt
+ConsoleHelp.egg-info/top_level.txt
+ConsoleHelp.egg-info/zip-safe

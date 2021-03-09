@@ -159,6 +159,36 @@ class math():
           print("ERROR")
     except:
       print("ERROR")
+  def maths(operator, num1, num2):
+    try:
+      if (operator == "+"):
+        total = num1 + num2
+        return total
+      if (operator == "-"):
+        total = num1 - num2
+        return total
+      if (operator == "/"):
+        total = num1 / num2
+        return total
+      if (operator == "//"):
+        total = num1 // num2
+        return total
+      if (operator == "*"):
+        total = num1 * num2
+        return total
+      if (operator == "%"):
+        total = num1 & num2
+        return total
+      if (operator == "^"):
+        total = num1 ** num2
+        return total
+      if (operator == "*"):
+        total = num1 * num2
+        return total
+      else:
+        print("ERROR IN OPERATOR")
+    except:
+      print("ERROR IN NUMS")
   def divide(num1, num2):
     try:
       float(num1)
@@ -187,11 +217,12 @@ def getowner():
 
 class info():
   def getversion():
-    print("VERSION 0.4.9")
+    print("VERSION 0.5.0")
   def getcreators():
     print("CREATOR\MOD: darkdarcool\nWEIRD SIDEKICK(maybe maintaner if you wanna call it that smth): JBloves27")
   def getupdates():
-    pass # for the future yes 
-  def getlanguage():#idk
+    pass 
+  def getlanguage():
     print("Coding lang: Python\nSpeaking lang: English\nDeveloped in: USA\n")
-  
+  def getgud():
+    print("Just google it kid(stackoverflow is good)")#looool
