@@ -6,7 +6,7 @@ We are currently in version `0.5.0`(half way to post) and we need more ideas!
 
 # Contributing
 
-We need you guys to tell us what you stuffled with, so we can make it easier for you. (make it in a issue so can find it, you must provide an example for it)
+We need you guys to tell us what you struggled with, so we can make it easier for you. (make it in a issue so can find it, you must provide an example for it)
 
 If you feel it necessary, you can also make a pull request with your code and we will examine it
 
