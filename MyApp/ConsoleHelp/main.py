@@ -208,13 +208,16 @@ class math():
     except:
       print("ERROR")
 
-
+ 
 def password(text):
   x = getpass.getpass(text)
   return x
 def getowner():
-  name = os.environ["REPL_OWNER"]
-  return name
+  try:
+    name = os.environ["REPL_OWNER"]
+    return name
+  except:
+    print(RED + "Error in grabbing repl_owner" + RESET) 
 def allmods():
   print("Coming soon")
 class info():
